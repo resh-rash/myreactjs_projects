@@ -1,0 +1,119 @@
+.active {
+  display:none;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: whitesmoke;
+  }
+  h1{
+    color: rgb(164, 164, 170);
+    text-align: center;
+    text-shadow: rgb(249, 246, 246);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .container1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 300px;
+  }
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    width: 500px;
+  }
+  
+  .form-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    height:100%;
+    width: 100%;
+  }
+  
+  /* .form-toggle {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .form-toggle button {
+    width: 50%;
+    padding: 10px;
+    background-color: #f3f3f3;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 10px 10px 0 0;
+  }
+  
+  .form-toggle .active {
+    background-color: #033452;
+    color: white;
+  } */
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .group {
+    display: inline;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  
+  .form h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    color: #054973;
+  }
+
+
+  .form label {
+    margin-bottom: 5px;
+    margin-right: 10px;
+  }
+  
+  .form input {
+    padding: 5px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+
+  .form button {
+    padding: 10px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .form a {
+    color: #007bff;
+    text-decoration: none;
+    margin-bottom: 10px;
+    text-align: right;
+  }
+  .form a:hover {
+    color:brown;
+  }
+  
+  .form p {
+    text-align: center;
+  }
+  
